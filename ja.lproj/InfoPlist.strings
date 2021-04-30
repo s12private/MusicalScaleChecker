@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  musicalscalechecker
+
+  Created by 松中誉生 on 2020/10/23.
+  
+*/
+CFBundleDisplayName = "音程チェッカー";
+NSMicrophoneUsageDescription = "マイクからの音を取得し、音程や周波数を解析するために使用します";

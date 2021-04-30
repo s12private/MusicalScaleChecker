@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  musicalscalechecker
+
+  Created by 松中誉生 on 2020/10/23.
+  
+*/
+CFBundleDisplayName = "MusicalScale";
+NSMicrophoneUsageDescription = "To analyze notes and frequencies from your microphone";
