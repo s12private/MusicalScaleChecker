@@ -27,6 +27,7 @@
 /* Begin PBXFileReference section */
 		127CB2329A5405303F12FE43 /* Pods-musicalscalechecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicalscalechecker.release.xcconfig"; path = "Target Support Files/Pods-musicalscalechecker/Pods-musicalscalechecker.release.xcconfig"; sourceTree = "<group>"; };
 		870CB6B6254319E400E84DD4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8758A145269DC9F600EFECF6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8778D49A2542F4FB00E92BDC /* musicalscalechecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicalscalechecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8778D49D2542F4FB00E92BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8778D49F2542F4FB00E92BDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		8778D4A32542F4FD00E92BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8778D4A62542F4FD00E92BDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8778D4A92542F4FD00E92BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8778D4AB2542F4FD00E92BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8778D4BF2542F63500E92BDC /* komorebi-gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "komorebi-gothic.ttf"; sourceTree = "<group>"; };
 		8778D4C02542F64600E92BDC /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		8778D4C32542F65600E92BDC /* ColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorEx.swift; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 				8778D4D22542FF0200E92BDC /* AdView.swift */,
 				8778D4BF2542F63500E92BDC /* komorebi-gothic.ttf */,
 				8778D4A32542F4FD00E92BDC /* Assets.xcassets */,
+				8758A145269DC9F600EFECF6 /* Info.plist */,
 				8778D4A82542F4FD00E92BDC /* LaunchScreen.storyboard */,
-				8778D4AB2542F4FD00E92BDC /* Info.plist */,
 				8778D4A52542F4FD00E92BDC /* Preview Content */,
 			);
 			path = musicalscalechecker;
