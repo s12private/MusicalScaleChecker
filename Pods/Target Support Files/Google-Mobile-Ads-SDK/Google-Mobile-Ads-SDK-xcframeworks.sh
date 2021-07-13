@@ -144,14 +144,10 @@ install_xcframework() {
     mkdir -p "$destination"
   fi
 
-  if [[ "$package_type" == "library" ]]; then
-    # Libraries can contain headers, module maps, and a binary, so we'll copy everything in the folder over
-    copy_dir "$source/" "$destination"
-  elif [[ "$package_type" == "framework" ]]; then
-    copy_dir "$source" "$destination"
-  fi
+  copy_dir "$source/" "$destination"
+
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework" "GoogleMobileAds" "framework" "ios-armv7_arm64/GoogleMobileAds.framework" "ios-i386_x86_64-simulator/GoogleMobileAds.framework"
+install_xcframework "${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework" "GoogleMobileAds" "framework" "ios-arm64_armv7" "ios-arm64_x86_64-simulator"
 
